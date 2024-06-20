@@ -1,0 +1,31 @@
+# New fields!
+
+- tags
+- views
+- likes
+- authorBio
+- authorWeb
+- authorTwitter
+- authorLinkedin
+
+--- 
+
+- "tags":
+    - "type": "select"
+    - "options": ["react", "formik", "login forms"]
+    - "value": "react"
+    - "editable": true,
+    - "required": true
+- "views":
+    - "type": "integer"
+    - "value": 0
+    - "editable": true
+    - "required": false
+- "comments"
+    - "type": "integer"
+    - "value": 0
+    - "editable": true
+    - "required": true
+    - "className": "green-cell"
+...
+    

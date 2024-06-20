@@ -1,0 +1,231 @@
+{
+  "posts1": [
+    {
+      "id": "7ac1",
+      "title": "Praesent cursus condimentum metus.",
+      "body": "Integer euismod eu lectus at tristique. In hac habitasse platea dictumst. Fusce ultricies urna a tempus rhoncus. Morbi ligula enim, tempus vel aliquam eget, feugiat et dolor. Morbi vel cursus magna. Phasellus dictum ultrices maximus. ok"
+    },
+    {
+      "id": "Us22",
+      "title": "Vestibulum ante ipsum primis in faucibus orci luctus",
+      "body": "Morbi nec eros nulla. Maecenas interdum, sem a elementum finibus, nibh ante cursus nunc, congue cursus dui augue quis mauris. Cras in aliquam ipsum. Nam gravida varius varius. Fusce ac lacus finibus, imperdiet elit non, commodo dolor. Donec sodales viverra quam, et varius massa faucibus eu."
+    },
+    {
+      "id": "e622",
+      "title": "New title",
+      "body": "Body"
+    }
+  ],
+  "posts2": [
+    {
+      "id": "d3Sa",
+      "title": "Vestibulum ante ipsum primis in faucibus orci luctus ok",
+      "body": "Morbi nec eros nulla. Maecenas interdum, sem a elementum finibus, nibh ante cursus nunc, congue cursus dui augue quis mauris. Cras in aliquam ipsum. Nam gravida varius varius. Fusce ac lacus finibus, imperdiet elit non, commodo dolor. Donec sodales viverra quam, et varius massa faucibus eu. ",
+      "author": "Jane Doe 4",
+      "date": "2018-01-02"
+    },
+    {
+      "id": "3di9",
+      "title": "Nulla sagittis bibendum vulputate.",
+      "body": "Proin tincidunt gravida commodo. Quisque tortor orci, elementum at quam in, porta efficitur tortor. Nam consequat eros mauris, ut luctus risus bibendum elementum. Nullam luctus ipsum non magna suscipit, sed blandit neque euismod. Quisque faucibus risus ornare, elementum erat in, aliquam nibh.",
+      "author": "Jane Doe",
+      "author_bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus sit amet"
+    }
+  ],
+  "posts3": [
+    {
+      "id": "1aCf",
+      "content": {
+        "title": {
+          "value": "Create a login form using formik in react js",
+          "type": "string",
+          "required": true,
+          "editable": true,
+          "className": "title"
+        },
+        "body": {
+          "value": "Todays article will demonstrate how to develop a login form in react js using formik.",
+          "type": "textarea",
+          "required": true,
+          "editable": true
+        },
+        "author": {
+          "value": "John Doe",
+          "type": "string",
+          "required": true,
+          "editable": true
+        },
+        "date": {
+          "value": "2024-05-08",
+          "type": "date",
+          "required": true,
+          "editable": true,
+          "className": "date"
+        },
+        "category": "ReactJS",
+        "tags": {
+          "options": [
+            "react",
+            "formik",
+            "login form"
+          ],
+          "type": "select",
+          "value": "formik",
+          "required": false,
+          "editable": true
+        },
+        "views": {
+          "value": 1000,
+          "type": "integer",
+          "required": true,
+          "editable": false
+        },
+        "likes": {
+          "value": 500,
+          "type": "integer",
+          "required": true,
+          "editable": false,
+          "className": "purple-cell"
+        },
+        "comments": {
+          "value": 50,
+          "type": "integer",
+          "required": false,
+          "editable": false,
+          "className": "green-cell"
+        },
+        "featured": {
+          "value": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "type": "select",
+          "required": false,
+          "editable": true
+        },
+        "authorBio": {
+          "value": "John Doe is a software engineer with over 10 years of experience in web development.",
+          "type": "string",
+          "required": true,
+          "editable": false
+        },
+        "image": {
+          "value": "https://via.placeholder.com/600x400",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "authorWeb": {
+          "value": "https://johndoe.com",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "authorTwitter": {
+          "value": "https://twitter.com/johndoe",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "authorLinkedIn": {
+          "value": "https://linkedin.com/johndoe",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "fans": {
+          "value": 1000,
+          "type": "integer",
+          "required": false,
+          "editable": false,
+          "className": "green-cell"
+        }
+      }
+    },
+    {
+      "id": "2fcf",
+      "content": {
+        "title": {
+          "value": "How to use Redux in React JS",
+          "type": "string",
+          "required": true,
+          "editable": true
+        },
+        "body": {
+          "value": "In this article, we will learn how to use Redux in React JS to manage the state of your application.",
+          "type": "textarea",
+          "required": true,
+          "editable": true
+        },
+        "author": {
+          "value": "Jane Doe",
+          "type": "string",
+          "required": true,
+          "editable": true,
+          "className": "green-cell"
+        },
+        "date": {
+          "value": "2022-01-06",
+          "type": "date",
+          "required": true,
+          "editable": true
+        },
+        "category": "ReactJS",
+        "tags": {
+          "options": [
+            "react",
+            "formik",
+            "login form"
+          ],
+          "type": "select",
+          "value": "react",
+          "required": false,
+          "editable": true
+        },
+        "views": {
+          "value": 800,
+          "type": "number",
+          "required": true,
+          "editable": false
+        },
+        "likes": {
+          "value": "450",
+          "type": "integer",
+          "required": true,
+          "editable": true
+        },
+        "authorBio": {
+          "value": "Jane Doe is a frontend developer with expertise in React JS and Redux. She is really cool",
+          "type": "textarea",
+          "required": true,
+          "editable": true
+        },
+        "image": {
+          "value": "https://via.placeholder.com/600x400",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "authorWeb": {
+          "value": "https://janedoe.com",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "authorTwitter": {
+          "value": "https://twitter.com/janedoe",
+          "type": "string",
+          "required": false,
+          "editable": true
+        },
+        "authorLinkedIn": {
+          "value": "https://linkedin.com/janedoe",
+          "type": "string",
+          "required": false,
+          "editable": true
+        }
+      }
+    }
+  ]
+}
